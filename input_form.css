@@ -1,0 +1,52 @@
+#textbox {
+	width: 452px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 3px;
+}
+#textbox1 {
+	width: 452px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 3px;
+}
+#textbox_thin {
+	width:452px;
+	border: 3px solid #ccc;
+	padding: 3px;
+}
+.textboxwrapper {
+	border: 0;
+	background-color:#ffffff;
+	color:#000000;
+	font-family: Tahoma, sans-serif;
+	padding: 10px 10px 0 10px;
+}
+.textboxwrapper1 {
+	border: 0;
+	background-color:#ffffff;
+	color:#000000;
+	font-family: Tahoma, sans-serif;
+}
+.ontologySelector {
+	border: 0;
+	color: #000;
+	font-family: Tahoma, sans-serif;
+	vertical-align: top;
+	display:none;
+}
+
+.buttonBox {
+	border: 1px solid #ccc;
+	color: #000;
+	background-color: #eee;
+	margin-top:3px;
+
+}
+.tableAtt {
+	width:510px;
+	border: 2px solid #555; 
+	padding: 15px; 
+	background: none repeat scroll 0 0 #C9DCE6; 
+	margin-top:10px;
+}

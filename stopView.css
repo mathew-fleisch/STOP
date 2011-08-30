@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+#loading {
+	text-align: center;
+	padding: 25px;	
+}
+.name_value a{
+	color: #33dd00;
+	padding: 0 10px 0 10px;
+}
+.legendBox {
+	float:left;
+	border:3px solid #ccc;
+	margin-left:5px;
+	margin-bottom:10px;
+	padding:0 5px 0 5px;
+}
+.selectFilterButton {
+	border:3px solid #ccc; 
+	margin:0 0 0 5px; 
+	padding:0 5px 0 5px;
+	background-color:#fff; 
+/*	font-size:86%; */
+	cursor:pointer; 
+	cursor:hand; 
+	color: #33839A;
+}
+.selectFilterButton:hover {
+	color: #144A6E;
+}

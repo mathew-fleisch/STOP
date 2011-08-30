@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/********************************/
+/*
+
+COLORS:
+
+BROWN:   Dk - #786d65
+                Lt - #c0bbb7
+		               
+BLUE:   Dk - #007ba1
+                Lt - #c9dce6
+
+PURPLE: Dk - #74719b
+                Lt - #bebcd0
+		               
+OLIVE:  Dk - #717b5a
+                Lt - #bcc1b3
+		               
+TURQ:   Dk - #418895
+                Lt - #acc6cd
+
+		facebuck blue - #3b5998
+
+		*/
+/********************************/
+.container{
+	background-color: #ffffff;
+	text-align: left;
+	vertical-align: top;
+opacity:0.85;
+}
+.labImage{
+align: center;
+       background-repeat: no-repeat;
+}
+.bTitle{
+color: #000;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 20px;
+       font-weight: bold;
+       text-align: center;
+       vertical-align: top;
+}
+.bTitle a {
+	color: #000;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 20px;
+       font-weight: bold;
+       text-align: center;
+       vertical-align: top;
+}
+.bTitle a:hover{
+color: #3b5998;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 20px;
+       font-weight: bold;
+       text-align: center;
+       vertical-align: top;
+}
+.bTitle a:visited{
+color: #000;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 20px;
+       font-weight: bold;
+       text-align: center;
+       vertical-align: top;
+}
+.imgTitle{
+color: #000;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 14px;
+       text-align: center;
+       vertical-align: top;
+}
+.imgTitle a {
+	text-decoration: none;
+color: #418895;
+}
+.imgTitle a:hover {
+	text-decoration: none;
+color: #000;
+}
+.imgTitle a:visited {
+	text-decoration: none;
+color: #418895;
+}
+
+.defaultText {
+color: #000;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 12px;
+       text-align: right;
+       vertical-align: top;
+       padding-right: 4px;
+}
+.defaultText1 {
+color: #000;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 12px;
+       text-align: left;
+       vertical-align: top;
+       padding-left: 4px;
+}
+.defaultText1 a {
+	text-decoration: none;
+color: #717b5a;
+}
+.defaultText1 a:hover {
+	text-decoration: none;
+color: #000;
+}
+.defaultText1 a:visited {
+	text-decoration: none;
+color: #717b5a;
+}
+

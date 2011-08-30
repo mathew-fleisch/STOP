@@ -1,0 +1,77 @@
+@CHARSET "UTF-8";
+
+#ontology_filter_container .more {
+	display: none;	
+}
+
+#term_container {
+	display: none;
+}
+
+#ontology_filter_container #ontology_filter_button {
+	display: block;	
+	margin-bottom: 10px;
+}
+
+#filter_dialog {
+	display: none;	
+}
+
+#term_container .filter_text_container {
+	margin-top:10px;
+	padding:5px;
+}
+
+#term_container .filter_text_container input {
+	display: inline-block;
+	width:420px;
+}
+
+#filter_dialog .filter_text_container {
+	margin-top: 10px;	
+	padding: 5px;
+}
+#filter_dialog .filter_text_container input {
+	display: inline-block;
+	width: 420px;
+}
+
+#filter_dialog .selection_container {
+	text-align: center;
+}
+#filter_dialog .selection_container a {
+	margin: 5px 5px 0px;
+}
+
+#filter_dialog .list_container {
+	border: 1px solid #ccc;
+	height: 300px;
+	margin: 10px 0px;
+	overflow-y: scroll;
+}
+#filter_dialog .list_container li {
+	padding-left: 10px;
+}
+#filter_dialog .list_container li input {
+	margin-right: 5px;
+}
+		
+#filter_dialog .exclude_container .more {
+	display: none;
+}
+
+#filter_dialog .button_container {
+	text-align: center;	
+}
+#filter_dialog .button_container button {
+	margin: 10px 10px 0px;
+}
+#menu_container {
+	margin: 5px;
+}
+#group_menu {
+	width:450px;
+}
+#category_menu {
+	width:450px;
+}

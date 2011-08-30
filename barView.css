@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+
+#bar_view {
+	border-spacing: 0px;
+	display: none;
+	border-collapse: collapse;
+}	
+
+#loading {
+	text-align: center;
+	padding: 25px;	
+}
+
+#bar_view tr {
+	margin-bottom: 2px;
+}
+
+#bar_view td.odd {
+	background-color: #ddd;
+}
+
+#bar_view td.even {
+	background-color: #aaa;
+}
+
+#bar_view .name_col {
+	color:#111;
+	font-size:10px;
+	font-weight:bold;
+	padding-right: 5px;
+	text-align: right;
+}
+#bar_view .name_col a, #bar_view .name_col a:link, #bar_view .name_col a:visited {
+	color:#111;
+}
+#bar_view .name_col a:hover, #bar_view .name_col a:active {
+	color:#144A6E;
+}
+#bar_view .pval_col {
+	border: 1px solid #888;
+	height:8px;
+	margin:0;
+	overflow-x: hidden;
+	text-align:left;
+}
+	#bar_view .pval_col span {
+		display: inline-block;
+		padding-left: 5px;
+		overflow: visible;
+		white-space: nowrap;
+	}
+	#bar_view .pval_col.Enr span {
+		background-color: rgb(51, 221, 0);
+		color: #000;
+	}
+	#bar_view .pval_col.Dpl span {
+		background-color: #e10000;
+		color: #fff;
+	}
+	
+.bar_view_pagination table {
+	margin: 0px;
+}
+	.bar_view_pagination table tr td {
+		border-right: 1px solid black;
+		padding: 0px 4px;
+	}
+	.bar_view_pagination table tr td.last,
+	.bar_view_pagination table tr td.header {
+		border-right: 0px;
+	}
+
+.template {
+	display: none;	
+}
+
+.neutral {
+	background-color: #ffffff;
+	font-size: 10px;
+	padding-right:4px;
+	padding-left:4px;
+	height: 100%;
+	width: 100%;
+}
+
+.legendBox {
+	float:left;
+	border:3px solid #ccc;
+	margin-left:5px;
+/*	margin-bottom:10px;*/
+	padding:0 5px 0 5px;
+}
+
+.legendBox a:hover {
+	color: #144A6E;
+}
+
+.selectFilterButton {
+	border:3px solid #ccc; 
+	margin:0 0 0 5px; 
+	padding:0 5px 0 5px;
+	background-color:#fff; 
+	height: 25px;
+/*	font-size:86%; */
+	cursor:pointer; 
+	cursor:hand; 
+	color: #33839A;
+}
+.selectFilterButton:hover {
+	color: #144A6E;
+}
+
